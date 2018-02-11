@@ -7,4 +7,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // changeAttr('#draw', 'style', 'color:red;') EXAMPLE CODE USAGE
 
+  function menu() {
+  console.log('working');
+  }
+
+  document.getElementById('menuGallery').addEventListener('click', menu);
 }, false);
